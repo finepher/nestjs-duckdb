@@ -1,8 +1,10 @@
-# nestjs-duckdb
+# Nestjs DuckDB
 
 Simple, friendly DuckDB integration for NestJS 🦆
 
-A clean and easy way to use DuckDB in your NestJS apps. Plug it in, query your data, and get on with building — no extra setup headache.
+A clean and easy way to use DuckDB in your NestJS apps. Plug it in, query your data, and get on with building - no extra setup headache.
+
+📖 [Full documentation](https://finepher.github.io/nestjs-duckdb/)
 
 ## Install
 
@@ -58,16 +60,20 @@ DuckDbModule.forRootAsync({
 
 ## API
 
-- `duckDb.query(sql, ...params)` — run a query, get rows back
-- `duckDb.run(sql, ...params)` — run a statement with no return rows (CREATE TABLE, INSERT, etc.)
-- `duckDb.getConnection()` — access the raw `duckdb.Connection`
-- `duckDb.getDatabase()` — access the raw `duckdb.Database`
+- `duckDb.query(sql, ...params)` - run a query, get rows back
+- `duckDb.run(sql, ...params)` - run a statement with no return rows (CREATE TABLE, INSERT, etc.)
+- `duckDb.getConnection()` - access the raw `duckdb.Connection`
+- `duckDb.getDatabase()` - access the raw `duckdb.Database`
 
 You can also inject the raw database directly with `@InjectDuckDB()` if you need lower-level control.
 
 ## Example app
 
 See [`examples/basic-app`](./examples/basic-app) for a minimal working NestJS app using this package.
+
+## Contributing
+
+Contributions are welcome! See [CONTRIBUTING.md](./CONTRIBUTING.md) for how to get set up, run tests, and submit a pull request.
 
 ## License
 
