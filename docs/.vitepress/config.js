@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   title: 'NestJs DuckDB',
   description: 'Simple, friendly DuckDB integration for NestJS',
-  base: '/',
+  base: '/nestjs-duckdb/',
 
   head: [
     ['link', { rel: 'icon', href: '/logo.svg' }],
