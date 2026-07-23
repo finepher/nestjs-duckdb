@@ -7,7 +7,7 @@ export default defineConfig({
   base: '/nestjs-duckdb/',
 
   head: [
-    ['link', { rel: 'icon', href: '/logo.svg' }],
+    ['link', { rel: 'icon', href: '/nestjs-duckdb/logo.svg' }],
   ],
 
   themeConfig: {

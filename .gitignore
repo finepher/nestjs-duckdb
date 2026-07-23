@@ -6,4 +6,5 @@ dist/
 coverage/
 *.duckdb
 *.db
-cache
+docs/.vitepress/dist
+docs/.vitepress/cache

@@ -17,6 +17,8 @@ hero:
       link: https://github.com/finepher/nestjs-duckdb
 
 features:
+  - title: 100% TypeScript safe
+    details: Package Fully Supported typescript rules.
   - title: Zero-friction setup
     details: One forRoot() call and DuckDbService is ready to inject anywhere in your app.
   - title: Async config support
