@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress';
+import packageJson from '../../package.json' with { type: 'json' };
 
 export default defineConfig({
   title: 'NestJs DuckDB',
@@ -14,6 +15,7 @@ export default defineConfig({
 
     nav: [
       { text: 'Guide', link: '/guide/getting-started' },
+      { text: `v${packageJson.version}`, link: 'https://www.npmjs.com/package/nestjs-duckdb', target: '_blank' },
       { text: 'Blog', link: 'https://finepher.com/en/blogs/we-created-nestjs-duckdb-a-simple-duckdb-integration-for-nestjs', target: '_blank' },
       { text: 'GitHub', link: 'https://github.com/finepher/nestjs-duckdb' },
     ],
